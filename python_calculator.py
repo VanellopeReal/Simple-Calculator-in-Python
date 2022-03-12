@@ -1,7 +1,7 @@
 def calculator():
     if choose == 5:
         quit() #Exit Program
-    else:
+    elif choose >=6 or choose <= 0:
         print("\nOops! There not an option with this number to select.\n  ")
         return #Finish Function
     number1 = float(input("\nInsert the First Number: "))
